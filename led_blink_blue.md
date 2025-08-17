@@ -39,8 +39,8 @@
   * The PWM pins provides for the LED turning on for Blue LED(1'b1) and turn off for Green and Red LEDs.
   * Current control outputs for each of the LEDS through the PWM pins.
   * 1'b0 means the LEDs are turned off whereas 1'b1 means the LEDs are turned on with
-      * RGB_DRIVER.RGBX_CURRENT having current value of 0b0000001 for minumum brghtness 
-      * RGB_DRIVER.RGBX_CURRENT having current value of 0b1111111 for maximum brghtness
+      * RGB_DRIVER.RGBX_CURRENT having current value of 0b000001 for minumum brghtness 
+      * RGB_DRIVER.RGBX_CURRENT having current value of 0b111111 for maximum brghtness
   * The physical pin mapping of the FPGA board
      * __RGB0__ -> Red LED (pin 39)
      * __RGB1__ -> Green LED (pin 40)
