@@ -43,7 +43,12 @@ According to 8N1 UART protocol , it dictates that the data to be transmitted mus
 
 
 
+![flow_diagram](https://github.com/XcentricCoder/VSDSquadron_FM/blob/main/flow_diagram.png)
 
+
+Here is a sample working demonstration!!! ( some issues with baud rate mismatching tho :(  )
+
+https://drive.google.com/file/d/1vX1oIuS5FNC11nf37iFO1x-FHPZcLoZC/view?usp=drive_link
 
 
 
