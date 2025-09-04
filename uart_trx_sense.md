@@ -92,3 +92,34 @@ endmodule
 * In the RGB LED driver , the RGB pins are connected to UARTRX signal.
 * As a result , all 3 LEDs light up as a result of UART receive activity.
 * Hence, it shows that the UART communication is successful.
+
+### Block Diagram 
+
+
+
+
+### Circuit Diagram
+
+
+                               ┌─────────────────────┐
+                               │     iCE40 UP5K      │
+                               │                     │
+      External Clock           │                     │
+         (20) ────────────────►│ hw_clk              │
+                               │                     │
+      UART Receive             │                     │
+         (15) ────────────────►│ uartrx              │
+                               │                     │
+                               │                     │    Red LED
+                               │ led_red (39) ───────┼───▶(39)
+                               │                     │
+                               │                     │    Green LED  
+                               │ led_green (40) ─────┼───▶(40)
+                               │                     │
+                               │                     │    Blue LED
+                               │ led_blue (41) ──────┼───▶(41)
+                               │                     │
+      UART Transmit            │                     │
+         (14) ◄────────────────│ uarttx (14)         │
+                               │                     │
+                               └─────────────────────┘
