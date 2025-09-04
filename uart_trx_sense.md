@@ -95,7 +95,7 @@ endmodule
 
 ### Block Diagram 
 
-
+![Block Diagram](https://github.com/XcentricCoder/VSDSquadron_FM/blob/main/Block%20Diagram%20for%20UART%20communication)
 
 
 ### Circuit Diagram
