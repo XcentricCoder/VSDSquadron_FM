@@ -86,7 +86,6 @@ The **VSDSquadron FPGA Mini (FM)** is a compact, cost-effective FPGA development
 | Toolchain          | Yosys + nextpnr + IceStorm     |
 
 ---
-
 ## References
 - [VSD FPGA Mini (FM) Datasheet](https://www.vlsisystemdesign.com/vsdsquadronfm/)  
 - [Open-Source FPGA Toolchain](http://www.clifford.at/icestorm/)  
