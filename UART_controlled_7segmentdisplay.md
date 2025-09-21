@@ -167,4 +167,6 @@ set_io seg[6] 26
 - FTDI FT2232H Datasheet (for UART interface details)
 - Display component datasheets (for pinouts and electrical characteristics)
 
+## ![Recording](https://github.com/XcentricCoder/VSDSquadron_FM/blob/main/display_recording.mp4)
+
 This project provides a foundation for understanding UART communication and FPGA-based display control, with minimal hardware requirements focused on the VSD Squadron Mini's capabilities.
